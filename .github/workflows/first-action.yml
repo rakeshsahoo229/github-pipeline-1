@@ -8,5 +8,9 @@ jobs:
         run: echo "Welcome to Github Workflow"
       - name: display files
         run: ls -ltr
+      - name: create a file
+        run: touch file1
+      - name: display files
+        run: ls -ltr
       - name: print bye
         run: echo "Bye from Github Workflow"
